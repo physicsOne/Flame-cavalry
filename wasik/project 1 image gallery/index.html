@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Image gallery</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div id="main-content">
+			<ul id="gallery">
+				<li data-src="images/one.jpg"> 
+					<img src="images/one.jpg">
+				</li>
+				<li data-src="images/two.jpg"> 
+					<img src="images/two.jpg">
+				</li>
+				<li data-src="images/three.jpg"> 
+					<img src="images/three.jpg">
+				</li>
+				<li data-src="images/four.jpg"> 
+					<img src="images/four.jpg">
+				</li>
+				<li data-src="images/five.jpg"> 
+					<img src="images/five.jpg">
+				</li>
+				<li data-src="images/six.jpg"> 
+					<img src="images/six.jpg">
+				</li>
+				<li data-src="images/seven.jpg"> 
+					<img src="images/seven.jpg">
+				</li>
+				<li data-src="images/eight.jpg"> 
+					<img src="images/eight.jpg">
+				</li>
+				<li data-src="images/nine.jpg"> 
+					<img src="images/nine.jpg">
+				</li>
+			</ul>
+			<div id="custom-color">
+				red<input type="range" min="0" max="255" name="red" id="red" class="slide">
+				blue<input type="range" min="0" max="255" name="green" id="green" class="slide">
+				green<input type="range" min="0" max="255" name="blue" id="blue" class="slide">
+				transparency<input type="range" min="0" max="255" name="alpha" id="transparency" class="slide">
+				<span id="color-plate"></span>
+				<button id="set">set</button>
+			</div>
+			<div id="overlay">
+				<div class="left">
+					<div class="line-3"></div>
+					<div class="line-4"></div>
+				</div>
+				<div class="right">
+					<div class="line-5"></div>
+					<div class="line-6"></div>
+				</div>
+				<div id="exit">
+					<div id="line-1"></div>
+					<div id="line-2"></div>
+				</div>
+			</div>
+		</div>
+<script src="script.js"></script>
+	</body>
+</html>

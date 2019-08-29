@@ -1,0 +1,9 @@
+[0821/155316.793:ERROR:http_transport_win.cc(276)] WinHttpSendRequest: The operation completed successfully. (0x0)
+[0821/155347.183:ERROR:process_info.cc(359)] UncheckedAllocate
+[0821/155404.727:ERROR:process_info.cc(359)] UncheckedAllocate
+[0821/155557.040:ERROR:process_info.cc(359)] UncheckedAllocate
+[0821/155557.059:ERROR:process_info.cc(359)] UncheckedAllocate
+[0821/155601.611:ERROR:filesystem_win.cc(148)] DeleteFile C:\Users\wasek\AppData\Local\Google\Chrome\User Data\Crashpad\reports\ae7ee894-96b1-4723-9f0f-f0590f022fb9.dmp: The process cannot access the file because it is being used by another process. (0x20)
+[0821/155601.625:ERROR:process_info.cc(359)] UncheckedAllocate
+[0821/155643.982:ERROR:process_info.cc(359)] UncheckedAllocate
+[0821/155646.382:ERROR:process_info.cc(359)] UncheckedAllocate
