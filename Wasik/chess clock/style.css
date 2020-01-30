@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.clearfix::before,
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+li{
+    list-style: none;
+}
+#clock{
+    width:80%;
+    margin: 200px auto;
+
+}
+.black,
+.white{
+    border: 1px solid black;
+    display: inline-block;
+    float: left;
+    width: 50%;
+    height: 300px;
+    padding: 80px;
+    text-align: center;
+}
+.time{
+    font-size: 72px;
+}
